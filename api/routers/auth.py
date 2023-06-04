@@ -9,7 +9,7 @@ from starlette import status
 
 
 from api.db import get_db
-from api.cruds.user as user_crud
+import api.cruds.user as user_crud
 import api.models.task as task_model
 import api.schemas.user as user_schema
 from api.schemas.user import TokenData, Token

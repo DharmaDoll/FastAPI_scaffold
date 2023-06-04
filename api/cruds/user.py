@@ -7,7 +7,6 @@ import api.models.task as task_model
 import api.schemas.user as user_schema
 from api.security import get_password_hash
 
-
 # from typing import List, Tuple, Optional
 # from sqlalchemy.engine import Result
 # from sqlalchemy import select
